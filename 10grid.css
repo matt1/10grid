@@ -1,0 +1,67 @@
+/*
+	Remember to add to <head>:
+	
+	<meta name="viewport" content="initial-scale=1">
+	<link rel="stylesheet" href="10grid.css" />
+
+*/
+
+/* Column class common attributes */
+[class *= "col-"] {
+	box-sizing 			: border-box;
+	-moz-box-sizing 	: border-box;
+	-webkit-box-sizing 	: border-box;
+	float 				: left;
+	padding 			: 8px;
+}
+
+/* Clear row floats */
+.row {
+	clear  				: both;
+}
+
+/* Clear anything that comes after last row */
+.row:last-of-type  + * {
+	clear				: both;
+}
+
+/* column widths */
+.col-1  {width: 10%;}
+.col-2  {width: 20%;}
+.col-3  {width: 30%;}
+.col-4  {width: 40%;}
+.col-5  {width: 50%;}
+.col-6  {width: 60%;}
+.col-7  {width: 70%;}
+.col-8  {width: 80%;}
+.col-9  {width: 90%;}
+.col-10 {width: 100%;}
+
+/* Normal devices */
+.smallOnly {
+	display				: none;
+}
+
+/* Small devices */
+@media (max-width: 50em) {
+	.col-1,
+	.col-2,
+	.col-3,
+	.col-4,
+	.col-5,
+	.col-6,
+	.col-7,
+	.col-8,
+	.col-9,
+	.col-10 {
+		width 			: 100%;
+	}
+
+	.smallOnly {
+		display			: normal;
+	}
+	
+	.notSmall {
+		display 		: none;
+	}
+}
