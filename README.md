@@ -6,10 +6,11 @@ Features:
 * 10 column grid system using relatively-sized columns.
 * Pre-built breakpoint for small screens that linearises the grid (also relatively-sized)
 * Utility CSS classes for "smallOnly"/"notSmall" small-screen visibility
+* Tested on Chrome desktop & mobile, Firefox, Safari, Internet Explorer
 
 ## Usage
-* Set up the viewport to scale to width e.g. <meta name="viewport" content="initial-scale=1">
-* Include 10grid.css in your HTML, e.g.  <link rel="stylesheet" href="10grid.css" />
+* Set up the viewport to scale to width e.g. `<meta name="viewport" content="initial-scale=1">`
+* Include 10grid.css in your HTML, e.g.  `<link rel="stylesheet" href="10grid.css" />`
 * Add any other styles you want in your own style sheet and include as usual.
 * Start writing easy responsive sites with the simple syntax.
 
