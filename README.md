@@ -29,3 +29,6 @@ You dont have to "fill" the 10 column space, if you just wanted say a col-5 colu
 </div>
 ```
 Please see the index.html page for a sample.
+
+## License
+MIT
