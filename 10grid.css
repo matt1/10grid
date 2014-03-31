@@ -18,6 +18,9 @@
 /* Clear row floats */
 .row {
 	clear  				: both;
+	display				: flex;
+	-ms-display			: flex;
+	-webkit-display		: flex;	
 }
 
 /* Clear anything that comes after last row */
