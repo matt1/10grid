@@ -9,8 +9,8 @@
 /* Column class common attributes */
 [class *= "col-"] {
 	box-sizing 			: border-box;
-	-moz-box-sizing 	: border-box;
-	-webkit-box-sizing 	: border-box;
+	-moz-box-sizing 		: border-box;
+	-webkit-box-sizing 		: border-box;
 	float 				: left;
 	padding 			: 8px;
 }
@@ -19,8 +19,7 @@
 .row {
 	clear  				: both;
 	display				: flex;
-	-ms-display			: flex;
-	-webkit-display		: flex;	
+	display				: -webkit-flex;
 }
 
 /* Clear anything that comes after last row */
@@ -47,6 +46,10 @@
 
 /* Small devices */
 @media (max-width: 50em) {
+	.row {
+		display				: inline;
+	}
+
 	.col-1,
 	.col-2,
 	.col-3,
